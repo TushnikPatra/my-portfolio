@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Tushnik Patra Portfolio",
     images: [
       {
-        url: "/og-image.png", // optional (can add later)
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Tushnik Patra Portfolio",
@@ -61,7 +61,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        {/* ✅ Google Search Console Verification */}
+        <meta
+          name="google-site-verification"
+          content="hne-4sDlvCScDpn4jspKZ064CBsw3htr7OKZYhYXYa8"
+        />
+
+        {/* ✅ Mobile SEO */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* ✅ Theme Color */}
+        <meta name="theme-color" content="#000000" />
+      </head>
+
+      <body className="bg-black text-white antialiased">
+        {children}
+      </body>
     </html>
   );
 }
