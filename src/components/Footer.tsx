@@ -67,7 +67,7 @@ export default function Footer() {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/tushnik-patra"
+              href="https://www.linkedin.com/in/tushnik-patra-21195625a"
               target="_blank"
               className="w-9 h-9 flex items-center justify-center border border-gray-700 rounded-full hover:border-purple-400 transition"
             >

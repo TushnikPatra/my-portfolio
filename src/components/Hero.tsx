@@ -53,7 +53,7 @@ export default function Hero() {
             <a href="https://github.com/tushnikpatra" target="_blank" className="hover:text-white">
               <Github size={22} />
             </a>
-            <a href="https://www.linkedin.com/in/tushnik-patra" target="_blank" className="hover:text-white">
+            <a href="https://www.linkedin.com/in/tushnik-patra-21195625a" target="_blank" className="hover:text-white">
               <Linkedin size={22} />
             </a>
             <a href="mailto:tushnikpatra674@gmail.com" className="hover:text-white">
